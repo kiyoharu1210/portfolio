@@ -93,6 +93,7 @@ footer{
     }
     .plofile-back{
         font-size: 20px;
+        padding-bottom: 1px;
     }
     .home-plofile ul{
         padding-bottom: 300px;
@@ -229,7 +230,13 @@ footer{
     width: 350px;
     height: auto;
     border: #007e83 solid 2px;
-    margin: 10px;
+    margin: 10px 10px 0;
+}
+.sakuhin-list ul{
+    display: flex;
+}
+.sakuhin-list li{
+    list-style-type: none;
 }
 
 @media screen and (min-width: 768px){
@@ -244,7 +251,7 @@ footer{
     width: 350px;
     height: auto;
     border: #f5f5f5 solid 2px;
-    margin: 10px;
+    margin: 10px 10px 0;
 }
 
 @media screen and (min-width: 768px){
@@ -259,7 +266,7 @@ footer{
     width: 350px;
     height: auto;
     border: #007e83 solid 2px;
-    margin: 10px;
+    margin: 10px 10px 0;
 }
 
 @media screen and (min-width: 768px){
@@ -267,4 +274,13 @@ footer{
     width: auto;
     height: 350px;
     }
+}
+
+figure{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+figcaption{
+    text-align: center;
 }

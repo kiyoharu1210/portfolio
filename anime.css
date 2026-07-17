@@ -1,0 +1,40 @@
+#modal-container {
+  display: none;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  right: 0;
+  z-index: 99;
+}
+#modal-container > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* #modal-container > div > img {
+  max-width: calc(100vw - 30px);
+  max-height: calc(100vh - 30px);
+} */
+#modal-container img{
+  max-width: 60%;
+  max-height: 60%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+img.popup {
+  cursor: pointer;
+}/*# sourceMappingURL=anime.css.map */
